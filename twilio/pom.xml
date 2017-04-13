@@ -60,6 +60,11 @@ Copyright 2015 Google Inc.
         <artifactId>appengine-maven-plugin</artifactId>
         <version>${appengine.sdk.version}</version>
       </plugin>
+     <plugin>
+      <groupId>com.google.appengine</groupId>
+      <artifactId>appengine-maven-plugin</artifactId>
+      <version>1.9.51</version>
+     </plugin>
     </plugins>
   </build>
 </project>
