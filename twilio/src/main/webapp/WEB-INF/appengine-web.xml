@@ -17,9 +17,9 @@
   <version>YOUR-VERSION-ID</version>
   <threadsafe>true</threadsafe>
   <env-variables>
-    <env-var name="TWILIO_ACCOUNT_SID" value="YOUR-TWILIO-ACCOUNT-SID" />
-    <env-var name="TWILIO_AUTH_TOKEN" value="YOUR-TWILIO-AUTH-TOKEN" />
-    <env-var name="TWILIO_NUMBER" value="YOUR-TWILIO-NUMBER" />
+    <env-var name="TWILIO_ACCOUNT_SID" value="PN9f03b9236f4018d2770e87cede47f22c" />
+    <env-var name="TWILIO_AUTH_TOKEN" value="34b3c42449ed7ca7f036d2073c62dfcd" />
+    <env-var name="TWILIO_NUMBER" value="12015002101" />
   </env-variables>
 </appengine-web-app>
 <!-- [END config] -->
