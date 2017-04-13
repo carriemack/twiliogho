@@ -34,6 +34,13 @@ Copyright 2015 Google Inc.
       <artifactId>twilio-java-sdk</artifactId>
       <version>6.3.0</version>
     </dependency>
+   <dependency>
+      <groupId>com.twilio.sdk</groupId>
+      <artifactId>twilio</artifactId>
+      <version>7.X.X</version>
+      <scope>compile</scope>
+   </dependency>
+
     <!-- [END dependencies] -->
     <dependency>
       <groupId>javax.servlet</groupId>
