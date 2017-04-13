@@ -40,10 +40,10 @@ public class SendSmsServlet extends HttpServlet {
   @Override
   public void service(HttpServletRequest req, HttpServletResponse resp) throws IOException,
       ServletException {
-    final String twilioAccountSid = System.getenv("TWILIO_ACCOUNT_SID");
-    final String twilioAuthToken = System.getenv("TWILIO_AUTH_TOKEN");
-    final String twilioNumber = System.getenv("TWILIO_NUMBER");
-    final String toNumber = (String) req.getParameter("to");
+    final String twilioAccountSid = System.getenv("AC4750aff9c5a8591bc760d510363544e6");
+    final String twilioAuthToken = System.getenv("34b3c42449ed7ca7f036d2073c62dfcd");
+    final String twilioNumber = System.getenv("12015002101");
+    final String toNumber = (String) req.getParameter("17178809070");
     if (toNumber == null) {
       resp.getWriter()
           .print("Please provide the number to message in the \"to\" query string parameter.");
@@ -55,7 +55,7 @@ public class SendSmsServlet extends HttpServlet {
     List<NameValuePair> params = new ArrayList<NameValuePair>();
     params.add(new BasicNameValuePair("To", toNumber));
     params.add(new BasicNameValuePair("From", twilioNumber));
-    params.add(new BasicNameValuePair("Body", "Hello from Twilio!"));
+    params.add(new BasicNameValuePair("Body", "Thanks for reaching out to the Thrive team!"));
     try {
       Message sms = messageFactory.create(params);
       resp.getWriter().print(sms.getBody());
