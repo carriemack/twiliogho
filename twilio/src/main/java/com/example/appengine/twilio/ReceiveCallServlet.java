@@ -35,7 +35,7 @@ public class ReceiveCallServlet extends HttpServlet {
   public void service(HttpServletRequest req, HttpServletResponse resp) throws IOException,
       ServletException {
     TwiMLResponse twiml = new TwiMLResponse();
-    Say say = new Say("Hello from Twilio!");
+    Say say = new Say("Thanks for reaching out to the Thrive Team!");
     try {
       twiml.append(say);
     } catch (TwiMLException e) {
